@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars - The Dark Side</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/48/star-wars.png" alt="star-wars">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body onclick="play()">
+    <audio autoplay class="audio" id="audio">
+        <source src="./src/media/audio/Star-Wars-The-Imperial-March.ogg" type="audio/ogg">
+        <source src="./src/media/audio/Star-Wars-The-Imperial-March.mp3" type="audio/mp3">
+    </audio>
+    
+    <header class="header">
+        <picture>
+            <img src="./src/media/image/logo.png" alt="logo Star Wars">
+        </picture>
+    </header>
+
+    <main class="slider">
+        <button class="btn-arrow">
+            <img src="./src/media/image/arrow-red.png" alt="arrow-back" class="arrow-back" id="arrow-back">
+        </button>
+
+        <ul class="person-list">
+            <li class="card selected">
+                <div class="info">
+                    <h2 class="name">darth vader</h2>
+                    <p class="life">HP 999</p>
+                </div>
+
+                <div class="person">
+                    <img src="./src/media/image/darth_vader.png" alt="Darth Vader" class="person-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">descrição</h3>
+                    <p class="text">outrora o heróico cavaleiro jedi chamado anakin skywalker, darth vader foi seduzido pelo lado negro da força. para sempre marcado por sua derrota em mustafar, vader foi transformado em um sith lord ciberneticamente aprimorado. no alvorecer do império, vader liderou a erradicação da ordem jedi pelo império e a busca por sobreviventes. ele permaneceu a serviço do imperador - o malvado darth sidious - por décadas, fazendo cumprir a vontade de seu mestre e tentando esmagar a aliança rebelde e outros detratores. mas ainda havia algo bom nele...</p>
+                </div>
+            </li>
+            <li class="card ">
+                <div class="info">
+                    <h2 class="name">darth sidious</h2>
+                    <p class="life">HP 900</p>
+                </div>
+
+                <div class="person">
+                    <img src="./src/media/image/darth_sithius.png" alt="Darth Sidious" class="person-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">descrição</h3>
+                    <p class="text">o lado negro da força é um caminho para muitas habilidades que alguns consideram não naturais, e sheev palpatine é o mais infame seguidor de suas doutrinas. ardiloso, poderoso e malévolo, darth sidious restaurou os sith e destruiu a ordem jedi. vivendo uma vida dupla, ele também era palpatine, um senador de naboo e uma ameaça fantasma. ele manipulou o sistema político da república galáctica até ser nomeado chanceler supremo - e eventualmente imperador - e governou a galáxia através do medo e da tirania. a galáxia se alegrou quando ele morreu na batalha de endor, mas sidious enganou a morte e planejou pacientemente um retorno ao poder.</p>
+                </div>
+            </li>
+            <li class="card ">
+                <div class="info">
+                    <h2 class="name">darth maul</h2>
+                    <p class="life">HP 850</p>
+                </div>
+
+                <div class="person">
+                    <img src="./src/media/image/darth_maul.png" alt="Darth Maul" class="person-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">descrição</h3>
+                    <p class="text">um mortal e ágil lorde sith treinado pelo malvado darth sidious, darth maul era um guerreiro formidável e um mentor ardiloso. ele empunhava um intimidante sabre de luz de lâmina dupla e lutava com uma ferocidade ameaçadora. embora ele tenha caído em batalha contra obi-wan kenobi, o zabrak de dathomir provaria ser muito mais difícil de destruir do que se acreditava originalmente.</p>
+                </div>
+            </li>
+            <li class="card ">
+                <div class="info">
+                    <h2 class="name">darth tyrannus</h2>
+                    <p class="life">HP 890</p>
+                </div>
+
+                <div class="person">
+                    <img src="./src/media/image/darth_tyrannus.png" alt="Darth Tyrannus" class="person-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p  class="text">conde dookan era um lorde sith ameaçador e figura central nas guerras clônicas. outrora um jedi - treinado por yoda - ele se desiludiu com a ordem jedi e ansiava por mais poder. dookan voluntariamente deixou o lado da luz para trás e se tornou o discípulo do lado negro de darth sidious, assumindo o nome secreto de darth tyranus e liderando o exército separatista. dooku avançou na trama secreta de sidious para dominar a galáxia, mas esqueceu que a traição é a natureza dos sith.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-arrow">
+            <img src="./src/media/image/arrow-red.png" alt="arrow-forward" id="arrow-forward">
+        </button>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

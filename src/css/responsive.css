@@ -1,0 +1,46 @@
+@media (max-width: 900px) {
+    body {
+        background: url('../media/image/bg-mobile-dark-side.jpg') no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        margin-bottom: 10px;
+    }
+
+    .header img {
+        width: 150px;
+    }
+
+    .person-list {
+        min-width: 230px;
+    }
+
+    .slider {
+        gap: 10px;
+        margin: 0;
+    }
+
+    .btn-arrow img{
+       max-width: 70%;
+    }
+    
+    .btn-arrow img:hover{
+        content: url('../media/image/arrow-blue.png');
+    }
+    
+    .arrow-back {
+        transform: rotateY(180deg);
+    }
+}
+
+@media (max-width: 570px) {
+    .person-list .name, .person-list .life {  
+        font-size: .8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .slider .btn-arrow img {
+        content: url('../media/image/arrow-green.png');
+    }
+}
